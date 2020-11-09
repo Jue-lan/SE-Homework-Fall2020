@@ -4,7 +4,10 @@
     <title>Juelan Introduction</title>
 </head>
 <style type="text/css">
-  body{background-color: #DADAF1;}
+    body{background-color: #DADAF1;
+        margin:15px;
+        padding:5px;
+        padding:10px;}
     #imagecenter{display: block;
       margin-left: auto;
       margin-right: auto;
@@ -29,19 +32,34 @@
       text-align: center;}
     table{color:#11111A;
       border-style: hidden;}
-    div{background-color: white;
+    div{position: relative;
+      background-color: white;
       width:auto;height:inherit;}
     form{padding: 5px;
       background-color: white;
       font-family:optima;
-      border-style: hidden;}
+      border-style: outset;}
+    input[type=button]{
+      color: white;
+      font-style: oblique;
+      font-weight: bold;
+      font-family: optima;
+      background-color: #DADAF1;
+      padding: 3px;}
     .center {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 30%;}
+    .center2 {text-align: center;
+      font-weight: bold;
+      font-family: optima;}
 </style>
 <body>
+  <p id="imagecenter">
+    <img class="center"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcniGzwCfMDDrNkB7bsR48wmuC3qH7DZ3Sbw&usqp=CAU">
+  </P>
   <div>
     <h2>The Facts</h1>
   </div>
@@ -99,7 +117,12 @@
         </tr>
     </table>
   </div>
-    <br>
+    <br><br><br>
+  <p class="center2"> Thanks for checking out my page!
+  </P>
+  <br>
+  <p class="center2"> Please fill out the form below
+  </p>
     <form>
         <h2> What else is there to know?</h2>
         First Name: <input type="text" name="firstname"> <br><br>
