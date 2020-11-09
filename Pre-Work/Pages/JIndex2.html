@@ -5,7 +5,10 @@
 </head>
 <style type="text/css">
   body{background-color: #DADAF1;}
-    img{text-align: center;}
+    #imagecenter{display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;}
     h2{color:#1A188D;
       font-family: optima;
       font-weight: bolder;
@@ -21,7 +24,9 @@
       font-style:italic;}
     ul{color:#1A188D;
       font-style:normal;}
-    HobbiesList{font-style: italic;}
+    #HobbiesList{font-style: italic;
+      font-family: optima;
+      text-align: center;}
     table{color:#11111A;
       border-style: hidden;}
     div{background-color: white;
@@ -30,13 +35,20 @@
       background-color: white;
       font-family:optima;
       border-style: hidden;}
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;}
 </style>
 <body>
   <div>
     <h2>The Facts</h1>
   </div>
-    <h3>Hobbies</h4>
-    <ul id="HobbiesList">
+  <p id="HobbiesList"> Here is a bit more about me...
+  </p>
+    <h3 >Hobbies</h4>
+    <ul>
         <li>Piano</li>
         <li>Dance</li>
     </ul>
@@ -57,7 +69,7 @@
         <li>Dressing up</li>
     </ul>
   <div>
-    <table width="75%" border= opaque>
+    <table width="100%" border= opaque>
         <tr>
             <th>Artist</th>
             <th>Title</th>
@@ -67,7 +79,7 @@
             <td>Ariana Grande</td>
             <td>Positions</td>
             <td>
-                  <iframe width="400" height="215"
+                  <iframe width="100%" height="315"
                   src="https://www.youtube.com/embed/tcYodQoapMg"
                   frameborder="0" allow="accelerometer; autoplay;
                   clipboard-write; encrypted-media; gyroscope;
@@ -78,7 +90,7 @@
             <td>Megan Thee Stallion</td>
             <td>Don't Stop</td>
             <td>
-                  <iframe width="400" height="215"
+                  <iframe width="100%" height="315"
                   src="https://www.youtube.com/embed/6iuwBio5EUA?start=56"
                   frameborder="0" allow="accelerometer; autoplay;
                   clipboard-write; encrypted-media; gyroscope;
@@ -90,9 +102,9 @@
     <br>
     <form>
         <h2> What else is there to know?</h2>
-        First Name: <input type="text" name="firstname"> <br>
-        Last Name: <input type="text" name="lastname"> <br>
-        Feedback:  <input type="text" name="feedback"> <br>
+        First Name: <input type="text" name="firstname"> <br><br>
+        Last Name: <input type="text" name="lastname"> <br><br>
+        Feedback: <input type="text" name="feedback"> <br><br>
         <input type="button" name="submit" value="Submit"> <br>
     </form>
     <br>

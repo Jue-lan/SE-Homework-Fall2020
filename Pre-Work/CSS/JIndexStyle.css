@@ -1,13 +1,18 @@
 <style type="text/css">
   body{background-color: #DADAF1;}
-    img{text-align: center;}
+    #imagecenter{display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;}
     h2{color:#1A188D;
       font-family: optima;
       font-weight: bolder;
       text-align: center;}
     h3{color:white;
       font-family: optima;
-      font-weight:200;}
+      font-weight:200;
+      font-style: italic;
+      text-align: center;}
     h4{color:#11111A;}
     p{color:#11111A;
     line-height: 25px;}
@@ -16,13 +21,20 @@
       font-style:italic;}
     ul{color:#1A188D;
       font-style:normal;}
-    HobbiesList{font-style: italic;}
+    #HobbiesList{font-style: italic;
+      font-family: optima;
+      text-align: center;}
     table{color:#11111A;
       border-style: hidden;}
     div{background-color: white;
-      width:auto;height:inherit;}
+      width:auto; height:30px;}
     form{padding: 5px;
       background-color: white;
       font-family:optima;
       border-style: hidden;}
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;}
 </style>
