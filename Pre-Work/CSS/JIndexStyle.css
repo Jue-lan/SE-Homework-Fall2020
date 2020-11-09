@@ -1,0 +1,28 @@
+<style type="text/css">
+  body{background-color: #DADAF1;}
+    img{text-align: center;}
+    h2{color:#1A188D;
+      font-family: optima;
+      font-weight: bolder;
+      text-align: center;}
+    h3{color:white;
+      font-family: optima;
+      font-weight:200;}
+    h4{color:#11111A;}
+    p{color:#11111A;
+    line-height: 25px;}
+    a{color:#11111A;
+      font-family: optima;
+      font-style:italic;}
+    ul{color:#1A188D;
+      font-style:normal;}
+    HobbiesList{font-style: italic;}
+    table{color:#11111A;
+      border-style: hidden;}
+    div{background-color: white;
+      width:auto;height:inherit;}
+    form{padding: 5px;
+      background-color: white;
+      font-family:optima;
+      border-style: hidden;}
+</style>
